@@ -12,7 +12,7 @@ class talk{
     }
 
     //Setter
-    void SetSentence(const std::string& SetSentence)
+    void SetSentence(const std::string& SetSentence) //& is refer to sentence
     {
         sentence = SetSentence;
     }
